@@ -56,8 +56,8 @@ if __name__ == '__main__':
         print time2-time1
 			
 #Usage:
-#python downloadmap.py startlevel endlevel startx starty endx endy
+#python downloadMap.py startlevel endlevel startx starty endx endy
 
 #Example:
-#python downloadmap.py 0 4 0 0 0 0
-#python downloadmap.py 8 16 54848 102528 55103 102912
+#python downloadMap.py 0 4 0 0 0 0
+#python downloadMap.py 8 16 54848 102528 55103 102912
