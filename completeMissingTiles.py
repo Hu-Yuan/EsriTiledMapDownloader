@@ -51,8 +51,8 @@ if __name__ == '__main__':
             endY = endY*2+1
 			
 #Usage:
-#python downloadmap.py startlevel endlevel startx starty endx endy
+#python completeMissingTiles.py startlevel endlevel startx starty endx endy
 
 #Example:
-#python downloadmap.py 0 4 0 0 0 0
-#python downloadmap.py 8 16 54848 102528 55103 102912
+#python completeMissingTiles.py 0 4 0 0 0 0
+#python completeMissingTiles.py 8 16 54848 102528 55103 102912
