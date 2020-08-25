@@ -13,9 +13,13 @@
 ## 注意事项
 用于商业用途时，请遵守相应的法律法规。
 
-## Usage:
-* python downloadmap.py startlevel endlevel startx starty endx endy
+## Usage
+### 下载地图
+* python downloadMap.py startlevel endlevel startx starty endx endy
+### 补充下载地图时可能因网络不稳定或其他原因未能下载完全的切片
+* python completeMissingTiles.py startlevel endlevel startx starty endx endy
 
-## Example:
-* python downloadmap.py 0 4 0 0 0 0
-* python downloadmap.py 8 16 54848 102528 55103 102912
+## Example
+* python downloadMap.py 0 4 0 0 0 0
+* python downloadMap.py 8 16 54848 102528 55103 102912
+* python completeMissingTiles.py 0 4 0 0 0 0
